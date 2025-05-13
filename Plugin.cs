@@ -13,43 +13,13 @@ namespace ModelReplacement
     [BepInDependency("meow.ModelReplacementAPI", BepInDependency.DependencyFlags.HardDependency)]
     public class Plugin : BaseUnityPlugin
     {
-        public static ConfigFile config;
 
-        // Example Config for single model mod
-        public static ConfigEntry<bool> enableModelForAllSuits { get; private set; }
-        public static ConfigEntry<bool> enableModelAsDefault { get; private set; }
-        public static ConfigEntry<string> suitNamesToEnableModel { get; private set; }
-
-        private static void InitConfig()
-        {
-            enableModelForAllSuits = config.Bind<bool>("Suits to Replace Settings", "Enable Model for all Suits", false, "Enable to model replace every suit. Set to false to specify suits");
-            enableModelAsDefault = config.Bind<bool>("Suits to Replace Settings", "Enable Model as default", false, "Enable to model replace every suit that hasn't been otherwise registered.");
-            suitNamesToEnableModel = config.Bind<string>("Suits to Replace Settings", "Suits to enable Model for", "Default,Orange suit", "Enter a comma separated list of suit names.(Additionally, [Green suit,Pajama suit,Hazard suit])");
-
-        }
         private void Awake()
         {
-            config = base.Config;
-            InitConfig();
             Assets.PopulateAssets();
 
-            // Plugin startup logic
-            if (enableModelForAllSuits.Value)
-        {
-                ModelReplacementAPI.RegisterModelReplacementOverride(typeof(MRROBLOXEMPLOYEESUIT));
+            ModelReplacementAPI.RegisterSuitModelReplacement("Roblox Employee", typeof(MRROBLOXEMPLOYEESUIT));
 
-            }
-            if (enableModelAsDefault.Value)
-            {
-                ModelReplacementAPI.RegisterModelReplacementDefault(typeof(MRROBLOXEMPLOYEESUIT));
-
-            }
-            var commaSepList = suitNamesToEnableModel.Value.Split(',');
-            foreach (var item in commaSepList)
-            {
-                ModelReplacementAPI.RegisterSuitModelReplacement(item, typeof(MRROBLOXEMPLOYEESUIT));
-            }
-                
 
             Harmony harmony = new Harmony("com.mrbarrier.robloxemployeesuit");
             harmony.PatchAll();

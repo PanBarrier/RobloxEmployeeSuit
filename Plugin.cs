@@ -13,13 +13,11 @@ namespace ModelReplacement
     [BepInDependency("meow.ModelReplacementAPI", BepInDependency.DependencyFlags.HardDependency)]
     public class Plugin : BaseUnityPlugin
     {
-
         private void Awake()
         {
             Assets.PopulateAssets();
 
             ModelReplacementAPI.RegisterSuitModelReplacement("Roblox Employee", typeof(MRROBLOXEMPLOYEESUIT));
-
 
             Harmony harmony = new Harmony("com.mrbarrier.robloxemployeesuit");
             harmony.PatchAll();

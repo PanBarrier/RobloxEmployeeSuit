@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobloxEmployee", "RobloxEmployee.csproj", "{033FA75C-A1D6-42DE-8C82-5E766F8F110D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{033FA75C-A1D6-42DE-8C82-5E766F8F110D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033FA75C-A1D6-42DE-8C82-5E766F8F110D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033FA75C-A1D6-42DE-8C82-5E766F8F110D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033FA75C-A1D6-42DE-8C82-5E766F8F110D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE5A5CC5-46CE-49F9-B951-7E859662C218}
+	EndGlobalSection
+EndGlobal

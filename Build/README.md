@@ -1,8 +1,7 @@
 # RobloxEmployeeSuit v0.1.0
-### Add my friend Roblox Employee (not actual employee)
+### Adds my friend Roblox Employee (not actual employee)
 
-## Instructions
-- Place contents in `bepinex/plugins` folder. Ensure that ModelReplacementAPI is also installed. 
+His debute: https://www.youtube.com/watch?v=cMkpxa5JnD8
 
 ## Changelog
 	- v0.1.0

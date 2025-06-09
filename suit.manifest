@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2909004000
+CRC: 3031485180
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 766087383be4b0c3cbe284f9f21d91ab
+    Hash: dec282d6f57e3f1c2bc45a4c8b00f877
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a860ac3a971b01c416c7a6c1c7546b7e
+    Hash: d919e44f3849ce9c06744e353f422b14
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 766087383be4b0c3cbe284f9f21d91ab
+    Hash: dec282d6f57e3f1c2bc45a4c8b00f877
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,5 +38,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/ModelReplacementSDK/AssetsToBuild/RobloxEmployeeSuit.prefab
+- Assets/ModelReplacementSDK/AssetsToBuild/RobloxEmployee.prefab
 Dependencies: []

@@ -7,7 +7,7 @@ namespace ModelReplacement
     {
         protected override GameObject LoadAssetsAndReturnModel()
         {
-            string model_name = "RobloxEmployeeSuit";
+            string model_name = "RobloxEmployee";
             return Assets.MainAssetBundle.LoadAsset<GameObject>(model_name);
         }
     }

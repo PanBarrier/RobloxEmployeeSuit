@@ -26,7 +26,6 @@ namespace ModelReplacement
     }
     public static class Assets
     {
-        // Replace mbundle with the Asset Bundle Name from your unity project 
         public static string mainAssetBundleName = "Suit";
         public static AssetBundle MainAssetBundle = null;
 

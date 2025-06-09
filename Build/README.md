@@ -6,3 +6,5 @@ His debute: https://www.youtube.com/watch?v=cMkpxa5JnD8
 ## Changelog
 	- v0.1.0
 		- Release
+	- v0.2.0
+		- Mesh fixes

@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace ModelReplacement
 {
-    [BepInPlugin("com.mrbarrier.robloxemployeesuit", "RobloxEmployeeSuit", "0.1.0")]
+    [BepInPlugin("com.mrbarrier.robloxemployeesuit", "RobloxEmployeeSuit", "0.2.0")]
     [BepInDependency("meow.ModelReplacementAPI", BepInDependency.DependencyFlags.HardDependency)]
     public class Plugin : BaseUnityPlugin
     {

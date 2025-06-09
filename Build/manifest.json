@@ -1,11 +1,11 @@
 {
   "name": "RobloxEmployeeSuit",
-  "version_number": "0.1.0",
+  "version_number": "0.2.0",
   "website_url": "https://github.com/PanBarrier/RobloxEmployeeSuit",
-  "description": "Adds my friend Roblox Employee (not actual employee)",
+  "description": "Adds my friend Roblox Employee avatar (not actual employee)",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2100",
-    "BunyaPineTree-ModelReplacementAPI-2.3.1",
+    "BunyaPineTree-ModelReplacementAPI-2.4.18",
     "x753-More_Suits-1.5.2"
   ]
 }
